@@ -1,0 +1,26 @@
+{
+  "name": "ad-service",
+  "version": "1.0.0",
+  "description": "A bare bones ad targeting system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.ts",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "Apester",
+    "Home",
+    "Assignment",
+    "Ads"
+  ],
+  "author": "Apester R&D <rnd@apester.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
